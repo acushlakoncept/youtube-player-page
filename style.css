@@ -12,6 +12,7 @@
     align-items: center;
     padding: 10px 2px;
     background-color: #fff;
+    margin: 0 15px;
 }
 
 .logo img {
@@ -39,4 +40,25 @@ button {
 .logo,
 .profile_icons {
     flex-grow: 1;
+    text-align: right;
+}
+
+.logo {
+    text-align: left;
+}
+
+.profile_icons i {
+    margin-right: 20px;
+}
+
+.profile_icons i:nth-child(4) {
+    margin-right: 0 !important;
+    padding: 10px;
+    color: green;
+    font-size: 2em;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
 }
