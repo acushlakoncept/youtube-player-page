@@ -81,6 +81,10 @@ button {
     text-align: left;
 }
 
+#video h3 {
+    margin-top: 10px;
+}
+
 /* #video iframe {
     width: 100%;
     height: 400px;
@@ -93,4 +97,23 @@ button {
 
 .video-sidebar__title h5 span {
     margin-left: 25px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.section1 {
+    display: flex;
+    align-items: left;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section2 p {
+    margin-right: 10px;
 }
