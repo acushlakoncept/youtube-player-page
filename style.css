@@ -17,6 +17,14 @@ a {
     text-decoration: none;
 }
 
+.icon-img {
+    width: 20px;
+}
+
+.video_body .icon-img {
+    width: 15px;
+}
+
 .nav {
     height: 50px;
     display: flex;
@@ -60,11 +68,11 @@ button {
     text-align: left;
 }
 
-.profile_icons i {
+.profile_icons .icon-img {
     margin-right: 20px;
 }
 
-.profile_icons i:nth-child(4) {
+.profile_icons .icon-img:nth-child(4) {
     margin-right: 0 !important;
     padding: 10px;
     color: green;
@@ -82,6 +90,10 @@ button {
 .video-body {
     width: 70%;
     text-align: left;
+}
+
+#video {
+    width: 93%;
 }
 
 #video h3 {
@@ -185,11 +197,12 @@ h3 {
 .video-sidebar__item {
     display: flex;
     margin: 10px 0;
+    align-items: center;
 }
 
 .video-sidebar__item img {
-    width: 150px;
-    /* height: 90px; */
+    max-width: 150px;
+    height: 110px;
     display: inline;
     margin-right: 10px;
 }
