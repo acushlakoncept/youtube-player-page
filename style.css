@@ -25,6 +25,12 @@ a {
     width: 15px;
 }
 
+.autoplay .icon-img {
+    width: 45px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
 .nav {
     height: 50px;
     display: flex;
@@ -141,18 +147,14 @@ a {
 #plus {
     border: none;
     cursor: pointer;
+    padding: 10px 0;
 }
 
 #subscribe {
     background-color: red;
-    border-width: 0;
     color: white;
-    margin-left: 440px;
-    position: relative;
-    bottom: 20px;
     width: 100px;
-    font-weight: 90px;
-    font-style: bold;
+    font-weight: 700;
     cursor: pointer;
 }
 
@@ -194,6 +196,11 @@ h3 {
 }
 /* SIDE BAR  */
 
+.autoplay {
+    display: flex;
+    align-items: top;
+}
+
 .video-sidebar__item {
     display: flex;
     margin: 10px 0;
@@ -215,4 +222,43 @@ h3 {
 .video-sidebar__item .content p {
     font-size: 14px;
     text-align: left;
+}
+
+/* END OF SIDEBAR */
+
+/* SOME VIDEO BODY STYLES */
+
+.user-info {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info__profile h2 {
+    width: 48px;
+    height: 48px;
+    background-color: green;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-info__profile h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-info__profile h3 span {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.comment-count {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.4rem;
 }
