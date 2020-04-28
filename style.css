@@ -4,6 +4,10 @@
     border-collapse: collapse;
 }
 
+a {
+    color: rgb(78, 69, 69);
+}
+
 .nav {
     height: 60px;
     display: flex;
@@ -55,7 +59,7 @@ button {
     margin-right: 0 !important;
     padding: 10px;
     color: green;
-    font-size: 2em;
+    font-size: 2em !important;
 }
 
 #container {
