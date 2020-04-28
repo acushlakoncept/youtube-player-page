@@ -122,6 +122,64 @@ button {
     margin-right: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+#plus {
+    border: none;
+    cursor: pointer;
+}
+
+#subscribe {
+    background-color: red;
+    border-width: 0;
+    color: white;
+    margin-left: 440px;
+    position: relative;
+    bottom: 20px;
+    width: 100px;
+    font-weight: 90px;
+    font-style: bold;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+#filter {
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#span {
+    margin-top: 10px;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment img {
+    border-radius: 60px;
+    padding: 30px;
+}
+
+.comment h5 {
+    margin-top: 15px;
+}
+
+.comment a {
+    margin-top: 14px;
+    font-size: 13.7px;
+    margin-left: 5px;
+}
+
+.comment p {
+}
 /* SIDE BAR  */
 
 .video-sidebar__item {
