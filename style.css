@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.nav {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2px;
+    background-color: #fff;
+}
+
+.logo img {
+    height: 60px;
+    margin-left: 10px;
+}
+
+.search {
+    flex-grow: 2;
+}
+
+.search input[type="text"] {
+    width: 80%;
+    height: 20px;
+    padding: 5px;
+}
+
+button {
+    font-size: 11.5px;
+    padding: 8.5px;
+    font-weight: bold;
+    margin-left: -5px;
+}
+
+.logo, .profile_icons {
+    flex-grow: 1;
+}
