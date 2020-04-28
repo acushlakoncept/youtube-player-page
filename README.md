@@ -9,5 +9,5 @@
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://acushlakoncept.github.io/youtube-player-page/)
 
