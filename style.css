@@ -112,7 +112,6 @@ button {
 } */
 
 .video-sidebar {
-    width: 30%;
     text-align: right;
 }
 
@@ -177,13 +176,14 @@ h3 {
     display: flex;
 }
 
-.comment img {
-    border-radius: 60px;
+.comment img.pic {
+    border-radius: 50%;
     padding: 30px;
+    width: 50px;
+    height: 50px;
 }
 
 .comment h5 {
-    margin-top: 15px;
 }
 
 .comment a {
