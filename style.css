@@ -1,17 +1,28 @@
-* {
+*,
+html,
+body {
     margin: 0;
     padding: 0;
     border-collapse: collapse;
 }
 
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+a {
+    color: rgb(78, 69, 69);
+}
+
 .nav {
-    height: 60px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 2px;
+    padding: 10px 20px;
     background-color: #fff;
+    /* margin: 0 15px; */
 }
 
 .logo img {
@@ -36,6 +47,50 @@ button {
     margin-left: -5px;
 }
 
-.logo, .profile_icons {
+.logo,
+.profile_icons {
     flex-grow: 1;
+    text-align: right;
+}
+
+.logo {
+    text-align: left;
+}
+
+.profile_icons i {
+    margin-right: 20px;
+}
+
+.profile_icons i:nth-child(4) {
+    margin-right: 0 !important;
+    padding: 10px;
+    color: green;
+    font-size: 2em !important;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.video-body {
+    width: 80%;
+    text-align: left;
+}
+
+/* #video iframe {
+    width: 100%;
+    height: 400px;
+} */
+
+.video-sidebar {
+    width: 20%;
+    text-align: right;
+}
+
+.video-sidebar__title h5 span {
+    margin-left: 25px;
 }
