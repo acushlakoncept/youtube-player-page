@@ -1,27 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Video Player Page Clone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="nav">
-        <div class="logo">
-            <img src="images/youtube-logo.png" alt="logo" >
-        </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>YouTube Video Player Page Clone</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="nav">
+            <div class="logo">
+                <img src="images/youtube-logo.png" alt="logo" />
+            </div>
 
-        <div class="search">
-            <form id="search">
-                <input type="text" placeholder="Search">
-                <button>Search</button>
-            </form>
-        </div>
+            <div class="search">
+                <form id="search">
+                    <input type="text" placeholder="Search" />
+                    <button>Search</button>
+                </form>
+            </div>
 
-        <div class="profile_icons">
-            icons
+            <div class="profile_icons">
+                icons
+            </div>
         </div>
-    </div>
-</body>
+        <div id="container">
+            <div id="video">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/V74l_zS1x8E"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+                <h3>Contributing to Open Source Part 1: The Easy Way</h3>
+                <span>56122 views . 27 feb. 2014</span>
+                <p>417</p>
+                <p>17</p>
+                <a href="#Share">Share</a>
+                <a href="#Download">Download</a>
+            </div>
+            <hr />
+            <h3>The Odin Project</h3>
+            <span>972 followers</span>
+            <p>
+                How do you contribute to open source? In this video, I'll
+                describe the easiest way to make a<br />
+                simple contribution to an open source project-without using the
+                command line, a text editor,<br />
+                "forking a repo", or even touching Git outside of Github. I'll
+                also describe what kinds of<br />
+                <button>PLUS</button>
+                <button>SUBSCRIBE</button>
+            </p>
+
+            <hr />
+            <span>3 comments</span>
+            <button>Filter</button>
+            <div class="comment">
+                <img src="images/image1.jpg" alt="image" />
+                <h5>Wing N.</h5>
+                <a href="#2 years ago (modified)">2 years ago (modified)</a>
+                <p>
+                    "use your powers for good" haha<br />
+                    thank you for the video.
+                </p>
+                <span>3</span>
+                <button>ANSWER</button>
+            </div>
+            <div class="comment">
+                <img src="images/image2.jpg" alt="image" />
+                <h5>Dan Bei</h5>
+                <a href="#1 month ago">1 month ago</a>
+                <p>
+                    They seem to have removed the link from the bottom of the
+                    student solutions...
+                </p>
+                <span>1</span>
+                <button>ANSWER</button>
+            </div>
+            <div class="comment">
+                <img src="images/image3.jpg" alt="image" />
+                <h5>Fer Del Valle</h5>
+                <a href="#7 months ago">7 months ago</a>
+                <p>Awesome, thanks</p>
+                <button>ANSWER</button>
+            </div>
+        </div>
+    </body>
 </html>

@@ -36,6 +36,12 @@ button {
     margin-left: -5px;
 }
 
-.logo, .profile_icons {
+.logo,
+.profile_icons {
     flex-grow: 1;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
 }
