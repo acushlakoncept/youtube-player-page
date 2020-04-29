@@ -17,6 +17,20 @@ a {
     text-decoration: none;
 }
 
+.icon-img {
+    width: 20px;
+}
+
+.video_body .icon-img {
+    width: 15px;
+}
+
+.autoplay .icon-img {
+    width: 45px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
 .nav {
     height: 50px;
     display: flex;
@@ -60,11 +74,11 @@ button {
     text-align: left;
 }
 
-.profile_icons i {
+.profile_icons .icon-img {
     margin-right: 20px;
 }
 
-.profile_icons i:nth-child(4) {
+.profile_icons .icon-img:nth-child(4) {
     margin-right: 0 !important;
     padding: 10px;
     color: green;
@@ -84,17 +98,20 @@ button {
     text-align: left;
 }
 
+#video {
+    width: 93%;
+}
+
 #video h3 {
     margin-top: 10px;
 }
 
-/* #video iframe {
-    width: 100%;
-    height: 400px;
-} */
+#video iframe {
+    width: 800px;
+    height: 500px;
+}
 
 .video-sidebar {
-    width: 30%;
     text-align: right;
 }
 
@@ -122,16 +139,77 @@ button {
     margin-right: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+#plus {
+    border: none;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+#subscribe {
+    background-color: red;
+    color: white;
+    width: 100px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+#filter {
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#span {
+    margin-top: 10px;
+}
+
+.comment {
+    display: flex;
+}
+
+.comment img.pic {
+    border-radius: 50%;
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.comment h5 {
+}
+
+.comment a {
+    margin-top: 14px;
+    font-size: 13.7px;
+    margin-left: 5px;
+}
+
+.comment p {
+}
 /* SIDE BAR  */
+
+.autoplay {
+    display: flex;
+    align-items: top;
+}
 
 .video-sidebar__item {
     display: flex;
     margin: 10px 0;
+    align-items: center;
 }
 
 .video-sidebar__item img {
-    width: 150px;
-    /* height: 90px; */
+    max-width: 150px;
+    height: 110px;
     display: inline;
     margin-right: 10px;
 }
@@ -144,4 +222,43 @@ button {
 .video-sidebar__item .content p {
     font-size: 14px;
     text-align: left;
+}
+
+/* END OF SIDEBAR */
+
+/* SOME VIDEO BODY STYLES */
+
+.user-info {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info__profile h2 {
+    width: 48px;
+    height: 48px;
+    background-color: green;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-info__profile h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-info__profile h3 span {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.comment-count {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 1.4rem;
 }
