@@ -106,10 +106,10 @@ button {
     margin-top: 10px;
 }
 
-/* #video iframe {
-    width: 100%;
-    height: 400px;
-} */
+#video iframe {
+    width: 800px;
+    height: 500px;
+}
 
 .video-sidebar {
     text-align: right;
