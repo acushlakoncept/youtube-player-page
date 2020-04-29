@@ -21,12 +21,12 @@ The goal of the project was to focus on making media elements show up. Ability t
 
 👤 **Uduak Essien**
 
--   Github: [@githubhandle](https://github.com/acushlakoncept/)
--   Twitter: [@twitterhandle](https://twitter.com/acushlakoncept)
--   Linkedin: [linkedin](https://www.linkedin.com/in/acushlakoncept/)
+-   Github: [@acushlakoncept](https://github.com/acushlakoncept/)
+-   Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
+-   Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
 
 👤 **Emmanuelle Kamwa**
 
--   Github: [@githubhandle](https://github.com/emmanuellekamwa)
--   Twitter: [@twitterhandle](https://twitter.com/AlixKamwa)
--   Linkedin: [linkedin](https://www.linkedin.com/in/emmanuelle-kamwa-86145a1a4/)
+-   Github: [@emmanuellekamwa](https://github.com/emmanuellekamwa)
+-   Twitter: [@AlixKamwa](https://twitter.com/AlixKamwa)
+-   Linkedin: [emmanuelle-kamwa-86145a1a4](https://www.linkedin.com/in/emmanuelle-kamwa-86145a1a4/)
